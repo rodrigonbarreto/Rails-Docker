@@ -86,4 +86,4 @@ production:
   <<: *default
   database: Rails_Docker_production
   username: Rails_Docker
-  password: <%= ENV['RAILS_DOCKER_DATABASE_PASSWORD'] %>
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
